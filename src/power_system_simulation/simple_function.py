@@ -19,3 +19,8 @@ def add(a: int, b: int) -> int:
 def multiply(a: int, b: int):
     """Multiply two numbers"""
     return a * b
+
+
+def divide(a: int, b: int) -> int:
+    """Divide two numbers"""
+    return a / b
