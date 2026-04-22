@@ -21,9 +21,6 @@ def multiply(a: int, b: int):
     return a * b
 
 
-
-
-
 def divide(a: str, b: int):
     """Divide two numbers"""
     if b == 0:
