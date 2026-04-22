@@ -1,5 +1,6 @@
-from power_system_simulation.simple_function import add, multiply, divide
 import pytest
+
+from power_system_simulation.simple_function import add, divide, multiply
 
 
 def test_add():
