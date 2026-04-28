@@ -10,8 +10,10 @@ def test_add():
 def test_multiply():
     assert multiply(2, 2) == 4
 
+
 def test_divide():
     assert divide(4, 2) == 2
+
 
 def test_divide_by_zero():
     with raises(ValueError, match="Cannot divide by zero"):
